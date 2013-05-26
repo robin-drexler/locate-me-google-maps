@@ -1,0 +1,8 @@
+.locatemebutton.searchbutton {
+    left: 475px;
+    width: 40px;
+}
+
+.locatemebutton.searchbutton::before {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QUTDw8gX5KpagAAAOJJREFUOMutkzFyAjEMRZ8YCmgYb7tFLmiOkytwg5wnM3CBmG0ofxoZhMcOQ2Z/s9bfL1mSJXBIqt8sqaiPIilHPYBVwsxQ/PMCZmbVb/NHgAuw+Hlxm5C53O9BNEjOn9w+uZ1aIcCm1hiwN7MyKKEA+yajTNPE1AgmSbOkqeFjRiWWcuYNSDpXx23gU60dOJrZT8dxAj6r/qnLHcyD2+eeOGayAF9+vo3GY1Tbf3vyfX/mtV4nNyXugvhp2JzbNfq8ysTai91JwMGbXoCP7hKussVO1EAGHIHrwPfqg3gPAPAL9Uq2N3NWi04AAAAASUVORK5CYII=);
+}

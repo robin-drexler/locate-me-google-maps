@@ -1,16 +1,18 @@
 {
-    "name": "My awesome extension :)",
-    "version": "0.1",
+    "name": "Locate Me, Google Maps!",
+    "version": "0.5.2",
     "icons": { 
-        "16": "/img/icons/icon_16.png",
-        "48": "/img/icons/icon_48.png",
-        "128": "/img/icons/icon_128.png" 
+        "128": "/img/icons/icon_128.png"
     },
 
-    "description": "Yay, I'm so useless.",
+    "description": "Adds a button to Google Maps, to locate you at your current position",
     "permissions": [
         "geolocation"
     ],
+
+    "background": {
+        "scripts": ["/js/background.js"]
+    },
 
     "content_scripts": [
         {
@@ -18,7 +20,10 @@
             "js": [
                     "/js/external/jquery.js", 
                     "/js/content_script.js"
-                ]
+                ],
+            "css": [
+                "/style/styles.css"
+            ]
         }
     ],
 
